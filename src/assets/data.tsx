@@ -35,9 +35,7 @@ export const data: {
     id: "about",
     icon: <FaInfoCircle />,
     label: "About",
-    content: <div>
-    <div className="flex justify-center p-4 sm:p-8 bg-gray-50 dark:bg-gray-800 text-gray-800 dark:text-gray-200 min-h-screen font-sans">
-      <div className="w-full max-w-4xl p-6 sm:p-10 bg-white dark:bg-gray-900 rounded-3xl shadow-xl transition-all duration-300">
+    content: <div className="w-full max-w-4xl p-6 sm:p-10 bg-white dark:bg-gray-900 shadow-xl transition-all duration-300">
         
         {/* About Me Section */}
         <h1 className="text-3xl sm:text-4xl font-bold text-center text-indigo-700 dark:text-indigo-400 mb-6">About Me</h1>
@@ -96,10 +94,7 @@ export const data: {
             Contact Me
           </button>
         </div>
-      </div>
-    </div>
-  
-</div>,
+      </div>,
   },
   {
     id: "projects",
