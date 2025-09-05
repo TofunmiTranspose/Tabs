@@ -13,7 +13,7 @@ export const data: {
     icon: <FaHome />,
     label: "Home",
     content: (
-      <<div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 3xl:grid-cols-6 p-2 md:px-4 mx-aut0 dark:bg-gray-900">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 3xl:grid-cols-6 p-2 md:px-4 mx-aut0 dark:bg-gray-900">
   {Array.from({ length: 6 }).map((_, i) => (
     <div className="max-w-sm m-2 mx-aut shadow bg-white dark:bg-gray-800 dark:shadow-lg dark:shadow-gray-700/50" key={i}>
       <img src='https://placehold.co/200' className="object-cover w-full h-30" alt="" />
