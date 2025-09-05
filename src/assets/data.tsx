@@ -59,8 +59,6 @@ export const data: {
         <h2 className="text-xl sm:text-2xl font-semibold text-indigo-600 dark:text-indigo-300 mb-4">What I Do</h2>
         <ul className="list-disc list-inside space-y-2 text-gray-600 dark:text-gray-300 mb-8">
           <li>Building dynamic and interactive user interfaces with React.js</li>
-          <li>Developing robust and scalable back-end APIs with Node.js and Express</li>
-          <li>Database management and optimization (MongoDB, PostgreSQL)</li>
           <li>Creating pixel-perfect designs from wireframes and mockups</li>
           <li>Ensuring cross-browser compatibility and mobile responsiveness</li>
         </ul>
@@ -68,7 +66,7 @@ export const data: {
         {/* Skills & Technologies Section */}
         <h2 className="text-xl sm:text-2xl font-semibold text-indigo-600 dark:text-indigo-300 mb-4">Skills & Technologies</h2>
         <div className="flex flex-wrap gap-2 sm:gap-3 mb-8">
-          {['HTML5', 'CSS3', 'JavaScript (ES6+)', 'React.js', 'Node.js', 'Express.js', 'MongoDB', 'PostgreSQL', 'Git', 'RESTful APIs', 'Responsive Design', 'Tailwind CSS', 'TypeScript'].map((skill) => (
+          {['HTML5', 'CSS3', 'JavaScript (ES6+)', 'React.js', 'Node.js', 'Git', 'RESTful APIs', 'Responsive Design', 'Tailwind CSS', 'TypeScript'].map((skill) => (
             <span key={skill} className="px-3 py-1 text-sm font-medium text-gray-700 bg-gray-200 dark:bg-gray-700 dark:text-gray-200 rounded-full shadow-sm transition-colors duration-200">
               {skill}
             </span>
