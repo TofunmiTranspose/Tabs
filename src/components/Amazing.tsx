@@ -11,11 +11,11 @@ const Amazing = () => {
           <div className="div p-2">
             <div className="mb-2">
               <h2 className="font-bold text-sm sm:text-base">Amazing Card</h2>
-              <p className="text-gray-700 text-[0.6rem] sm:text-xs">
+              <p className="text-gray-700 text-[0.6rem] sm:text-xs dark:text-gray-300">
                 This is a description for the amazing card.
               </p>
             </div>
-            <button className="px-2 sm:px-4 py-1 sm:py-2 bg-black text-white rounded text-[0.6rem] sm:text-xs cursor-pointer">
+            <button className="px-2 sm:px-4 py-1 sm:py-2 bg-black text-white rounded text-[0.6rem] sm:text-xs cursor-pointer dark:bg-black/70 dark:shadow shadow-white/20">
               Learn More
             </button>
           </div>
