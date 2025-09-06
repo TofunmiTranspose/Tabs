@@ -8,6 +8,7 @@ const Tabs = () => {
       <div className="max-w-4xl mx-auto border-b border-gray-200 flex justify-between px-4">
         {data.map((item) => (
           <div
+          key={item.id}
             className={`flex space-x-1 px-1 items-center ${
               item.id === activeTab
                 ? "border-b-2 border-gray-400"
